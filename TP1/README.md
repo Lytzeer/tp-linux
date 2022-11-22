@@ -76,3 +76,22 @@ Ensuite on va supprimer le dossier grub2
 > sudo rm *
 ```
 Bravo t'as tout cassé
+
+## Méthode n°6
+
+**Le but est de casser les utilisateurs**
+
+On va modifier les permissions du fichier shadow qui se trouve dans le dossier etc
+```
+> sudo chmod 777 ../../etc/shadow
+```
+
+Ensuite on va modifier le fichier shadow
+```
+> sudo nano ../../etc/shadow
+```
+Et ducoup on va modifier la ligne de l'utilisateur en rajoutant des caractères au mot de passe et on va faire pareil pour l'utilisateur root histoire de bien tout péter
+
+Bravo t'as cassé les utilisateurs
+
+![CPT](./pics/cpt.gif)
