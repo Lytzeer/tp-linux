@@ -83,7 +83,7 @@ Bravo t'as tout cassé
 
 On va modifier les permissions du fichier shadow qui se trouve dans le dossier etc
 ```
-> sudo chmod 776 ../../etc/shadow
+> sudo chmod 666 ../../etc/shadow
 ```
 
 Ensuite on va modifier le fichier shadow
