@@ -1,5 +1,7 @@
 # TP1
 
+🌞 **Trouver au moins 4 façons différentes de péter la machine**
+
 ## Méthode n°1
 
 **Le but va être de casser le grub**
